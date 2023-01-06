@@ -1,0 +1,231 @@
+h1{
+    color: #ff0000;
+    border-left:rgb(0, 0, 0);
+    letter-spacing: 9px;
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    font-weight:900px;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 5px 3px 10px #64e50e;
+     
+  
+}
+
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(malem.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background-color: rgb(26, 39, 60);
+    text-align: center;
+  
+
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.active, .menu-bar ul li:hover
+{
+    background: #374334;
+    border-radius: 3px;
+
+}
+.menu-bar .fa{
+    margin-right: 4px;
+
+}
+
+.sub-menu-1{
+    display:none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: #1b3b14;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+
+    width: 150px;
+    padding: 6px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #b2ff0b;
+}
+h2{
+    text-align: center;
+    size adjust 5px ;
+    stroke-width: 2%;
+    color: #bfff00;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 5px 5px 15px #000000;
+
+}
+.text-paregraph{
+    color: #fff;
+    padding: 4%;
+    margin: 0%;
+}
+
+.social-icon
+{
+    background-color:navy
+    background:transparent   
+}
+
+.social-icon ul
+{
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: flex;
+}
+
+.social-icon ul li
+
+{
+    list-style: none;
+    margin: 0 25px;
+}
+
+.social-icon ul li .fab
+{
+    font-size: 35px;
+    line-height: 60px;
+    transition: 3s;
+    color: rgb(0, 0, 3);
+
+}
+.social-icon ul li a:hover
+{
+    color: #fff;
+    transform: translate(0,-10%);
+
+
+}
+.social-icon ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 55%;
+    background-color: rgb(249, 244, 244);
+    text-align: center;
+    box-shadow: 0.4px 5px 0 rgb(0,0,2);
+    transition: .6s;
+
+}
+.social-icon ul li:nth-child(1) a:hover
+{
+    background-color: rgb(101, 101, 240);
+}
+.social-icon ul li :nth-child(2) a:hover
+{
+    background-color: rgb(56, 55, 39);
+}
+.social-icon ul li:nth-child(3) a:hover
+{
+    background-color: rgb(102, 232, 16);
+}
+.social-icon ul li:nth-child(4) a:hover
+{
+    background-color: rgb(19, 19, 215);
+}
+.social-icon ul li:nth-child(5) a:hover
+{
+    background-color: rgb(149, 149, 188);
+}
+.social-icon ul li:nth-child(6) a:hover
+{
+    background-color: rgb(255, 0, 0);
+}
+h3{
+    text-align: center;
+    color: #64e50e;
+    font-size: 2em; /* 30px/16=2.5em */
+    font-style:normal;
+    background-color: #1b3b14;
+
+}
+
+.form-menu-1{
+    padding: 0.5%;
+    margin-top: 0%;
+   border-radius: 3px;
+    text-align: left;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.form-menu-2{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 0%;
+    text-justify: distribute;
+    padding-left: 50px;
+    margin-left: 5cm;
+    margin-right: 5cm;
+
+}
+.form-menu-3
+{
+    text-align:center;
+    background: fixed;
+}
+.repair-image{
+    image-resolution: 300px;
+    padding-right: 0%;
+
+}
+
+.text-paregraph{
+    text-align: center;
+    background-color: aqua;
+    font-style: italic;
+    text-overflow: clip;
+    
+}
+
+
+    
+   
+   
