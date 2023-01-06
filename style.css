@@ -112,7 +112,7 @@ h2{
 .social-icon ul
 {
 position: absolute;
-top: 100%;
+top: 150%;
 left: 50%;
 transform: translate(-50%,-50%);
 display: flex;
@@ -222,6 +222,8 @@ h3{
     background-color: aqua;
     font-style: italic;
     text-overflow: clip;
+    position: absolute;
+    top:120%;
     
 }
 
