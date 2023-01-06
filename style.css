@@ -26,6 +26,7 @@ body{
 .menu-bar{
     background-color: rgb(26, 39, 60);
     text-align: center;
+    background-size: cover;
   
 
 }
@@ -46,7 +47,7 @@ body{
 }
 .active, .menu-bar ul li:hover
 {
-    background: #374334;
+    background: #60e408;
     border-radius: 3px;
 
 }
@@ -61,7 +62,7 @@ body{
 .menu-bar ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    background: #1b3b14;
+    background: #18143b;
     margin-top: 15px;
     margin-left: -15px;
 }
@@ -90,11 +91,18 @@ body{
 }
 h2{
     text-align: center;
-    size adjust 5px ;
-    stroke-width: 2%;
     color: #bfff00;
     font-family: "Times New Roman", Times, serif;
-    text-shadow: 5px 5px 15px #000000;
+    text-shadow: 9px 1px 5px #000000;
+    font-size: 65px;
+    padding-top: 23%;
+
+    
+    font-style: italic;
+
+    
+    
+    
 
 }
 .text-paregraph{
@@ -112,7 +120,7 @@ h2{
 .social-icon ul
 {
 position: absolute;
-top: 100%;
+top: 150%;
 left: 50%;
 transform: translate(-50%,-50%);
 display: flex;
@@ -212,9 +220,11 @@ h3{
     background: fixed;
 }
 .repair-image{
-    image-resolution: 300px;
-    padding-right: 0%;
-
+    
+    margin-top: -320px;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
 }
 
 .text-paregraph{
@@ -222,10 +232,28 @@ h3{
     background-color: aqua;
     font-style: italic;
     text-overflow: clip;
+    position: absolute;
+    top:120%;
     
 }
 
+.form-menu-2{
+    padding: 0.5%;
+    margin-top: 0%;
+   border-radius: 3px;
+    text-align: left;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    background-color: aquamarine;
+    display: flex;
+    width: 15cm;
 
+}
     
-   
+.form-menu-2 input[type=text] {
+    width: 12cm;
+    padding: 1px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
    
