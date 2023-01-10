@@ -18,66 +18,55 @@ h1{
     letter-spacing: 9px;
     background-color: rgb(0, 0, 0);
     background-size: auto;
+    text-align: center;
+    font-weight:900px;
     font-family: "Times New Roman", Times, serif;
-    text-shadow: 2px 2px 9px #f1eaf6;
-    border-radius: 1px;
+    text-shadow: 2px 2px 9px #9500ff;
+    margin-left: auto;
+    border-radius: 12px;
 }
 
-h6{
-    text-align: center;
-    color:rgba(255, 255, 255, 0.541);
-    border-left:rgb(255, 255, 255);
-    letter-spacing: 9px;
-    background-color: rgb(0, 0, 0);
-    background-size: auto;
-    font-family: "Times New Roman", Times, serif;
-    text-shadow: 2px 2px 9px #f1eaf6;
-    border-radius: 1px;
-    font-size: xx-large;
-}
 
 .menu-bar{
-    background-color: rgba(94, 172, 237, 0.938);
+    background-color: rgba(8, 0, 0, 0.478);
     text-align:center;
     background-size:cover;
     max-width: max-content;
     font-family: "Times New Roman", Times, serif;
     margin-right:auto;
-    margin-left: auto;}
+    margin-left: auto;
+    font-size: large;
+}
 
 
 .menu-bar ul{
     display:inline-flex;
     list-style: none;
-    color: rgba(8, 244, 248, 0.322);
+    color: rgba(6, 237, 240, 0.322);
     
 }
 
 .menu-bar ul li {
     width: fit-content;
-    padding: 15px;
     margin: 15px;
+    padding: 15px;
 }
-    
-
-
 .menu-bar ul li a{
     text-decoration: none;
     color: rgb(241, 233, 233);
     background-size: contain;
-    
+
 }
 
 .active, .menu-bar ul li:hover
 {
-    background: #70b926;
+    background: #161715;
     border-radius: 10px;
-    padding: 3%;
+    padding: 1%;
 }
 
 .menu-bar .fa{
-    margin-right: 4px;
-    margin-right: 4px;
+    margin-right: 5px;
 }
 
 .sub-menu-1{
@@ -87,23 +76,24 @@ h6{
 .menu-bar ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    background: #64608d;
-    
+    background: #220de3f4;
+    margin-top: 15px;
+    margin-left: -15px;
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul{
     display: block;
-    margin: 20px;
+    margin: 10px;
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul li{
 
     width: 150px;
     padding: 6px;
-    border-bottom: 1px dotted rgb(225, 14, 14);
+    border-bottom: 1px dotted #fff;
     background: transparent;
     border-radius: 0;
-  
+    text-align: left;
 
 }
 
@@ -126,7 +116,7 @@ h6{
 
     .active, .menu-bar ul li:hover
 {
-    background: #99f909cd;
+    background: #65f90992;
     border-radius: 10px;
     padding: 1%;
 
@@ -142,7 +132,7 @@ h6{
 .menu-bar ul li:hover .sub-menu-1{
     display: block;
     position: absolute;
-    background: #0b72e0;
+    background: #18143b;
     margin-top: 15px;
     margin-left: -15px;
 }
@@ -186,13 +176,13 @@ h2{
 .text-paregraph{
     color: rgb(255, 255, 255);
     padding: 4%;
-    background-color: #c7c2f3ef;
+    background-color: #18143b6f;
     margin: 0%;
     text-align: center;
     font-style: italic;
     text-overflow: clip;
     position: absolute;
-    top: 170%;
+    top: 190%;
     padding-top: 0%;
    
     
@@ -207,7 +197,7 @@ h2{
 .social-icon ul
 {
 position: absolute;
-top: 190%;
+top: 230%;
 left: 50%;
 transform: translate(-50%,-50%);
 display: flex;
@@ -246,7 +236,7 @@ display: flex;
     width: 60px;
     height: 60px;
     border-radius: 45%;
-    background-color: rgb(249, 249, 244);
+    background-color: rgb(249, 244, 244);
     text-align: center;
     box-shadow: 0.4px 5px 0 rgb(0,0,2);
     transition: .6s;
@@ -299,50 +289,45 @@ H4{
 }
 
 .link-menu{
-    text-align: left;
+    
+    text-align:center;
+    background-size:cover;
+    max-width: max-content;
     font-family: "Times New Roman", Times, serif;
-      
-
-}
-   
+    font-size: large;}
+    
 
 .link-menu ul{
     display:inline-flex;
     list-style: none;
     color: rgba(6, 237, 240, 0.322);
-    text-align: center;
            
 }
 .link-menu ul li{
-    
-    margin: 22px;
-    padding: 22px;
-    
+    width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    width: max-content;
+
+
 }
 
 .link-menu ul li a{
     text-decoration: none;
     color: rgb(198, 227, 9);
     background-size: contain;
-    font-size: 80PX;
-
+    font-size: 90PX;
+    
 
 }
-
 .sub-menu-2{
-    color:rgb(219, 10, 10);font-size: larger;
-   
-
-}
-.sub-menu-2 ul{
-    list-style: none;
-    margin: 2%;
+    color:#fff;font-size: larger;
 }
     
 
 
 header{ 
-    color: rgb(212, 14, 14);
+    color: white;
     text-align: center;
     background-color: #64e50e;
     font-style: italic;
@@ -350,94 +335,18 @@ header{
 
 .container{
     position: absolute;
+    top: 28%;
     right: 3%;
     padding-top: 0%;
     z-index: -1;
-    border-radius: 3%;
   
 }
 
 
 p{
     color: #fff;
-    
 }
 
 
-.link-menu-4 ul{
-    display:inline-flex;
-    list-style: none;
-    color: rgba(6, 237, 240, 0.322);
-    text-align: center;
-           
-}
-.link-menu-4 ul li{
-    
-    margin: 25px;
-    padding: 25px;
-
-}
-
-.link-menu-4 ul li a{
-    text-decoration: none;
-    color: rgb(198, 227, 9);
-    background-size: contain;
-    font-size: 80PX;
-
-}
 
 
-.link-menu-5{
-    text-align: left;
-    font-family: "Times New Roman", Times, serif;
-
-}
-   
-
-.link-menu-5 ul{
-    display:inline-flex;
-    list-style: none;
-    color: rgba(6, 237, 240, 0.322);
-    text-align: center;
-           
-}
-.link-menu-5 ul li{
-    
-    margin: 25px;
-    padding: 25px;
-
-}
-
-.link-menu-5 ul li a{
-    text-decoration: none;
-    color: rgb(198, 227, 9);
-    background-size: contain;
-    font-size: 65PX;
-
-}
-.link-menu-3{
-    text-align: left;
- 
-}
-
-h5{
-    text-align: center;
-    color: #fff;
-    font-size: xx-large;
-    top: 15in;
-    background-color: #4835c5;
-}
-
-h7{
-
-    position: relative;
-    text-align: center;
-    color: #fff;
-    font-size: xx-large;
-    background-color: #70b926;
-    
-   
-
-}
-
-.peragraph
