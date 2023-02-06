@@ -23,8 +23,8 @@ body{
     background-color: rgb(117, 172, 209);
     background-size: auto;
     font-family: "Times New Roman", Times, serif;
-    text-shadow: 2px 2px 9px #000000;
-    border-radius: 1px;
+    text-shadow: 2px 6px 12px #000000;
+    border-radius: 15px;
     font-size:large;
     
 
@@ -41,6 +41,10 @@ h{
     font-family: "Times New Roman", Times, serif;
     text-shadow: 2px 2px 9px #f1eaf6;
     border-radius: 1px;
+}
+
+.link-menu{
+    color: #fff;
 }
 
 h6{
@@ -365,18 +369,13 @@ h1{
     text-align: center;
     color: #fff;
     font-size:x-large;
-    background-color: #6fb926db;
     margin-left: 10%;
     margin-right: 30%;
     font-style: italic;
-
-h8{
-    padding-top: height: ;
+    text-shadow: 9px 2px 8px #000000;
 }
 
 
-    
-}
 .link-menu-5{
 color: #76cd19;
 background-color: #e50e2b41;
@@ -423,7 +422,6 @@ background-color: rgba(68, 49, 8, 0.768);
 
     color: #76cd19;
     background-color: #e50e2b41;
-    border-radius: 45%;
     text-align:LEFT;
     background-size:cover;
     max-width:none;
@@ -450,13 +448,13 @@ background-color: rgba(68, 49, 8, 0.768);
 
 .Link-menu-6 ul li a{
     text-decoration: none;
-    color: rgb(153, 225, 9);
+    color: rgb(143, 255, 58);
     background-size:contain;
 }
 
 .active, .link-menu-6 ul li:hover
 {
-    background: #1509f9cd;
+    background: #f90909cd;
     border-radius: 10px;
     padding:1px;
 
@@ -466,6 +464,12 @@ background-color: rgba(68, 49, 8, 0.768);
     margin-right: 15px;}
 
     h10{
-        color: white;
-        background-color: #000000;
+        color: rgb(255, 0, 0);
+        background-color: #110000;
+        font-size:smaller;
     }
+
+.you-yube ul{
+    text-align: center;
+
+}
