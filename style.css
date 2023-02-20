@@ -49,13 +49,12 @@ h{
 
 h6{
     text-align: center;
-    color:rgba(255, 255, 255, 0.541);
-    border-left:rgb(255, 255, 255);
+    color:rgba(0, 0, 0, 0.541);
+    border-left:rgb(0, 0, 0);
     letter-spacing: 9px;
-    background-color: rgb(0, 0, 0);
     background-size: auto;
     font-family: "Times New Roman", Times, serif;
-    text-shadow: 2px 2px 9px #f1eaf6;
+    text-shadow: 2px 2px 9px #000000;
     border-radius: 1px;
     font-size: xx-large;
 }
@@ -202,19 +201,7 @@ h2{
 
 
 
-.text-paregraph{
-    color: rgb(255, 255, 255);
-    padding: 30px;
-    background-color: #ff0000ef;
-    text-align: center;
-    font-style: italic;
-    top: 36em;
-    position:relative;
-    z-index: -1;
 
-    
-
-}
 .social-icon
 {
     background-color:rgba(236, 236, 239, 0.247);
@@ -225,7 +212,7 @@ h2{
 .social-icon ul
 {
 position: absolute;
-margin-top: 49em;
+margin-top: 55em;
 left: 50%;
 transform: translate(-50%,-50%);
 display: flex;
@@ -328,11 +315,12 @@ p{
 
 
 h5{
-    text-align: center;
+    text-align: left;
+    margin-left: 4%;
     color: #fff;
     font-size: xx-large;
     top: 15in;
-    background-color: #4835c5;
+    
 }
 
 h7{
@@ -420,11 +408,12 @@ background-color: rgba(68, 49, 8, 0.768);
 
 .Link-menu-6{
 
-    color: #76cd19;
-    background-color: #e50e2b41;
+    color: #000000;
+    background-color: #e6cbce;
     text-align:LEFT;
     background-size:cover;
     max-width:none;
+    border-radius: 3%;
     font-family: Arial, Helvetica, sans-serif;
     margin-right:2%;
     margin-left:2%
@@ -437,7 +426,7 @@ background-color: rgba(68, 49, 8, 0.768);
 .link-menu-6 ul{
         display:flex;
         list-style: none;
-        color: rgba(3, 39, 40, 0.322);
+        color: rgba(221, 249, 250, 0.322);
         
 }
 .link-menu-6 ul li{margin-top: 35em;
@@ -448,13 +437,13 @@ background-color: rgba(68, 49, 8, 0.768);
 
 .Link-menu-6 ul li a{
     text-decoration: none;
-    color: rgb(143, 255, 58);
+    color: rgb(0, 0, 0);
     background-size:contain;
 }
 
 .active, .link-menu-6 ul li:hover
 {
-    background: #f90909cd;
+    background: #171053a9;
     border-radius: 10px;
     padding:1px;
 
@@ -469,7 +458,13 @@ background-color: rgba(68, 49, 8, 0.768);
         font-size:smaller;
     }
 
-.you-tube ul{
+.you-tube ul li{
         text-align: center;
+    background-color: #762e9dfa;
+    padding: 1%;
+    margin-right:5%;
+    margin-left:2%;
+    position:relative;
+    
 
 }
