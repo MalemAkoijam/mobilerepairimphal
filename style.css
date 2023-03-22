@@ -37,15 +37,14 @@ body{
 }
 
 h6{
-    text-align: center;
-    color:rgba(0, 0, 0, 0.541);
+ 
+    
     border-left:rgb(0, 0, 0);
-    letter-spacing: 9px;
     background-size: auto;
     font-family: "Times New Roman", Times, serif;
     text-shadow: 2px 2px 9px #000000;
-    border-radius: 1px;
-    font-size: xx-large;
+   
+    
 }
 
 .menu-bar{
@@ -189,94 +188,6 @@ h2{
 }
 
 
-
-
-.social-icon
-{
-    background-color:rgba(236, 236, 239, 0.247);
-    background:transparent; 
-    text-align: center;
-}
-
-.social-icon ul
-{
-position: absolute;
-margin-top: 40em;
-left: 50%;
-transform: translate(-50%,-50%);
-display: flex;
-font-size:smaller;
-
-}
-
-.social-icon ul li
-
-{
-    list-style: none;
-    margin: 0 25px;
-   
-}
-
-.social-icon ul li .fab
-{
-    font-size: 25px;
-    line-height: 60px;
-    transition: 3s;
-    color: rgb(0, 0, 3);
-    
-
-}
-
-.social-icon ul li a:hover
-{
-    color: #fff;
-    transform: translate(0,-10%);
-    
-}
-
-
-.social-icon ul li a{
-    position: relative;
-    display: block;
-    width: 55px;
-    height: 55px;
-    border-radius: 80%;
-    background-color: rgb(249, 249, 244);
-    text-align: center;
-    box-shadow: 0.4px 5px 0 rgb(0,0,2);
-    transition: .9s;
-   
-
-}
-
-
-.social-icon ul li:nth-child(1) a:hover
-{
-    background-color: rgb(101, 101, 240);
-}
-
-.social-icon ul li:nth-child(2) a:hover
-{
-    background-color: rgb(56, 55, 39);
-}
-.social-icon ul li:nth-child(3) a:hover
-{
-    background-color: rgb(102, 232, 16);
-}
-.social-icon ul li:nth-child(4) a:hover
-{
-    background-color: rgb(19, 19, 215);
-}
-.social-icon ul li:nth-child(5) a:hover
-{
-    background-color: rgb(149, 149, 188);
-}
-.social-icon ul li:nth-child(6) a:hover
-{
-    background-color: rgb(255, 0, 0);
-}
-
-
     
 
 H4{
@@ -320,21 +231,6 @@ h7{
 
     
 }
-
-h1{
-    color: #3445c3;
-    background-color: #70b926;
-    background-color:green;
-    position: relative;
-    text-align: center;
-    color: #fff;
-    font-size:x-large;
-    margin-left: 10%;
-    margin-right: 30%;
-    font-style: italic;
-    text-shadow: 9px 2px 8px #000000;
-}
-
 
 .link-menu-5{
 color: #76cd19;
@@ -416,12 +312,7 @@ background-color: rgba(68, 49, 8, 0.768);
 .link-menu-6 .fa{
     margin-right: 15px;}
 
-    h10{
-        color: rgb(255, 0, 0);
-       
-        font-size:smaller;
-    }
-
+   
 .paragraph{
 text-align:  center;
 color: #64e50e;
@@ -434,5 +325,14 @@ padding: 3%;
 
 .you-tube ul{
     list-style: none;
-    text-align: left;
+    
+}
+
+.you-tube ul li{
+    margin-left:2%;
+
+   
+}
+.container ol li{
+    padding: 4px;
 }
